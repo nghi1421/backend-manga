@@ -1,0 +1,25 @@
+{
+  "name": "backend-manga",
+  "version": "1.0.0",
+  "description": "Backend app manga",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "ThanhNghi1421",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cloudinary": "^1.35.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "helmet": "^6.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.1",
+    "nodemon": "^2.0.21"
+  }
+}
